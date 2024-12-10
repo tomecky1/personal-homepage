@@ -2,7 +2,7 @@
 
 ## DEMO
 
-[SITE PREVIEW]
+[SITE PREVIEW](https://tomekpiotrowski-homepage.netlify.app/)
 
 ## DESCRIPTION
 
