@@ -6,7 +6,7 @@ export const Wrapper = styled.article`
     justify-items: center;
     grid-gap: 32px;
     text-align: center;
-    color: ${({theme}) => colors.textPrimary};
+    color: ${({theme}) => theme.colors.textPrimary};
 
     @media (max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
         grid-gap: 24;

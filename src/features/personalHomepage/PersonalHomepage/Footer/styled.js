@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.footer`
     margin-top: 120px;
     @media (max-width: 767px) {
-        margin-top: 480px;
+        margin-top: 48px;
     }
 `
 export const LetsTalk = styled.h2`
