@@ -3,7 +3,7 @@ import {fetchRepositories, fetchRepositoriesFailed, fetchRepositoriesSuccess} fr
 import {getRepositories} from "./personalHomepageAPI.jsx";
 
 
-const loadingDelay = 2500;
+const loadingDelay = 2800;
 
 function* fetchRepositoriesHandler({payload: username}) {
   try {

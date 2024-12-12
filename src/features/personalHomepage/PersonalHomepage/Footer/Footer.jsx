@@ -1,7 +1,7 @@
 import {email} from "../../../../email.js";
 import {Address, EmailLink, EmailWrapper, LetsTalk, Paragraph, Wrapper} from "./styled.js";
-import githubIcon from "./SocialIcons/Github_black.png";
-import linkedinIcon from "./SocialIcons/Linkedin_black.png";
+import githubIcon from "../Footer/SocialIcons/Github_black.png";
+import linkedinIcon from "../Footer/SocialIcons/LinkedIN_black.png";
 
 export const Footer = () => {
   return (
