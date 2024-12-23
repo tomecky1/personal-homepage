@@ -11,9 +11,11 @@ export const MainInformation = () => (
       <ThisIs>This is</ThisIs>
       <Name>Tomek Piotrowski</Name>
       <Summary>
-        🦫 💻 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto culpa expedita explicabo impedit
-        laborum maxime ratione, voluptas? Asperiores, deserunt mollitia neque quia quidem rerum voluptas voluptatibus?
-        Ad aliquam dolores esse inventore libero officiis tempore vitae voluptate!
+        🦫 💻 Hello guys I'm a passionate frontend developer actually looking for new jobs opportunities. Also I used to
+        work for a big company in Poland as an electronic medical documentation archivist for several years. Nothing
+        interesting about that, if you ask me. So I'm glad now I can be part of this cool community. Yeah from other
+        stuff i did i also played an electric guitar for 5 years, but the neurologist injury got me out of the music
+        game sadly. Wish you best luck and cheers. 🎸🎸🎸
       </Summary>
       <StyledButtonLink href={`mailto: ${email}`} title={email}>
         <ButtonIcon src={message} alt={"LetterIcon"}/>

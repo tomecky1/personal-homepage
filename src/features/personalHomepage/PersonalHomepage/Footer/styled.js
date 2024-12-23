@@ -46,7 +46,7 @@ export const Paragraph = styled.p`
     max-width: 670px;
     line-height: 1.4;
     color: ${({theme}) => theme.colors.textPrimary};
-    margin: 0;
+    margin-bottom: 56px;
 
     @media (max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
         font-size: 14px;
