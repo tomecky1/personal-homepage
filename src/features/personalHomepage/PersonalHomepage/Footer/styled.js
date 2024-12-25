@@ -56,6 +56,7 @@ export const Paragraph = styled.p`
 export const SocialIcons = styled.div`
     display: flex;
     justify-content: flex-start;
+    gap: 24px;
 
     &:not(:last-child) {
         margin-right: 16px;

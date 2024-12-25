@@ -1,6 +1,7 @@
 import {email} from "../../../../email.js";
 import {Address, EmailLink, EmailWrapper, LetsTalk, Link, Paragraph, SocialIcons, Wrapper,} from "./styled.js";
-
+import github from "../Footer/SocialIcons/Github_black.png"
+import linkedin from "../Footer/SocialIcons/LinkedIN_black.png"
 
 export const Footer = () => {
   return (
@@ -17,9 +18,9 @@ export const Footer = () => {
         </Paragraph>
         <SocialIcons>
           <Link href={"https://github.com/tomecky1"} rel={"noreferrer"} target="_blank"> <img
-            src="/SocialIcons/Github_black.png" alt={"Github"}/></Link>
+            src={github} alt={"Github"}/></Link>
           <Link href={"https://www.linkedin.com/in/tomasz-piotrowski-50821a331"} rel={"noreferrer"} target="_blank"><img
-            src="./SocialIcons/LinkedIN_black.png" alt={"LinkedIn"}/></Link>
+            src={linkedin} alt={"LinkedIn"}/></Link>
         </SocialIcons>
 
       </Address>
