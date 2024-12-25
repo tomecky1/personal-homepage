@@ -1,16 +1,6 @@
-import { email } from "../../../../email.js";
-import {
-  Address,
-  EmailLink,
-  EmailWrapper,
-  GithubIcon,
-  LetsTalk,
-  Linkedin,
-  Paragraph,
-  Wrapper,
-} from "./styled.js";
-import githubIcon from "../Footer/SocialIcons/Github_black.png";
-import linkedinIcon from "../Footer/SocialIcons/LinkedIN_black.png";
+import {email} from "../../../../email.js";
+import {Address, EmailLink, EmailWrapper, LetsTalk, Link, Paragraph, SocialIcons, Wrapper,} from "./styled.js";
+
 
 export const Footer = () => {
   return (
@@ -25,24 +15,13 @@ export const Footer = () => {
           If you have a website, dashboard or application that you would like to
           see on my portfolio or review, please don't hesitate to contact me.👍
         </Paragraph>
+        <SocialIcons>
+          <Link href={"https://github.com/tomecky1"} rel={"noreferrer"} target="_blank"> <img
+            src="/SocialIcons/Github_black.png" alt={"Github"}/></Link>
+          <Link href={"https://www.linkedin.com/in/tomasz-piotrowski-50821a331"} rel={"noreferrer"} target="_blank"><img
+            src="./SocialIcons/LinkedIN_black.png" alt={"LinkedIn"}/></Link>
+        </SocialIcons>
 
-        <GithubIcon
-          href={"https://github.com/tomecky1"}
-          target={"_blank"}
-          rel={"noreferrer"}
-        >
-          <img src={githubIcon} alt={"Github"} />
-        </GithubIcon>
-
-        <Linkedin
-          href={
-            "https://www.linkedin.com/in/tomasz-piotrowski-50821a331/?trk=opento_sprofile_details"
-          }
-          target={"_blank"}
-          rel={"noreferrer"}
-        >
-          <img src={linkedinIcon} alt={"Linkedin"} />
-        </Linkedin>
       </Address>
     </Wrapper>
   );

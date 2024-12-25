@@ -45,15 +45,15 @@ export const Item = styled.li`
         line-height: 1.2;
     }
 `
-// export const Bullet = styled.img`
-//     margin-right: 16px;
-//     height: auto;
-//
-//     @media (max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
-//         margin-right: 8px;
-//         width: 6px;
-//     }
-// `
+export const Bullet = styled.img`
+    margin-right: 16px;
+    height: auto;
+
+    @media (max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
+        margin-right: 8px;
+        width: 6px;
+    }
+`
 
 export const StyledHeader = styled(SubHeader)`
     padding-bottom: 16px;
