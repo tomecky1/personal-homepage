@@ -1,7 +1,7 @@
-import { useDispatch, useSelector } from "react-redux";
-import { Box, Button, Icon, IconWrapper, Text, Wrapper } from "./styled.js";
-import { selectIsDarkTheme, toggleTheme } from "../themeSlice.js";
-// import { ReactComponent as SunIcon } from "../../assets/images/sun.svg";
+import {useDispatch, useSelector} from "react-redux";
+import {Box, Button, IconWrapper, StyledSunIcon, Text, Wrapper} from "./styled.js";
+import {selectIsDarkTheme, toggleTheme} from "../themeSlice.js";
+import SunIcon from "../../assets/images/sun.svg";
 
 export const ThemeSwitch = () => {
   const dispatch = useDispatch();
@@ -13,7 +13,7 @@ export const ThemeSwitch = () => {
         <Text>Dark mode {isDarkTheme ? "on" : "off"}</Text>
         <Box>
           <IconWrapper moveToRight={isDarkTheme}>
-            {/* <SunIcon /> */}
+            <StyledSunIcon src={SunIcon} alt="sun icon"/>
           </IconWrapper>
         </Box>
       </Button>
