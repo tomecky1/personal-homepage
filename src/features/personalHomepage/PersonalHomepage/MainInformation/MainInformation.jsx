@@ -9,7 +9,7 @@ export const MainInformation = () => (
     <Avatar src={tomekPiotrowskiProfile} alt={"Tomek Piotrowski"}/>
     <div>
       <ThisIs>This is</ThisIs>
-      <Name>Tomek Piotrowski</Name>
+      <Name>Tomasz Piotrowski</Name>
       <Summary>
         🦫 💻 Hello guys I'm a passionate frontend developer actually looking for new jobs opportunities. Also I used to
         work for a big company in Poland as an electronic medical documentation archivist for several years. Nothing
