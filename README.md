@@ -8,7 +8,7 @@
 
 ## DESCRIPTION
 
-THis is my main Personal Homepage which from user gains access to all my socials and portfolio.
+Welcome to my virtual CV homesite which from user gains access to all my socials and portfolio.
 
 **Technology used in this project includes:**
 
