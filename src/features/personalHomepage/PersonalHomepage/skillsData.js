@@ -18,12 +18,11 @@ export const skills = [
   "React Hooks",
   "CSS Modules",
   "Tailwind CSS",
-  "Vite"
+  "Vite",
 ];
 
 export const skillsNext = [
   "Python (maybe)",
-  "Driving license",
   "TypeScript",
   "Node.js",
   "Tanstack query",
