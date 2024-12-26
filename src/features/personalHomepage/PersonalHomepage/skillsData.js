@@ -16,7 +16,8 @@ export const skills = [
   "Trello",
   "Teamwork",
   "React Hooks",
-  "Tailwind CSS"
+  "Tailwind CSS",
+  "Vite"
 ];
 
 export const skillsNext = [
