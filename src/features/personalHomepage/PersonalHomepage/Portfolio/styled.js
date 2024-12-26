@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Section = styled.section`
     margin-top: 72px; // fix for theme switch height
     padding: 12px;
-    background: ${({theme}) => theme.colors.boxBackground};
+    background: ${({theme}) => theme.colors.whiteLilac};
     box-shadow: ${({theme}) => theme.boxShadow};
     border-radius: ${({theme}) => theme.borderRadiusSmall};
 

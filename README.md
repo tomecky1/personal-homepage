@@ -1,4 +1,6 @@
-# React + Vite
+# MY PERSONAL HOMESITE
+
+![PAGE SCREENSHOT](/src/assets/images/homepage.png "cv homesite")
 
 ## DEMO
 

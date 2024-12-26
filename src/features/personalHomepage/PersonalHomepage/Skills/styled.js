@@ -57,7 +57,7 @@ export const Bullet = styled.img`
 
 export const StyledHeader = styled(SubHeader)`
     padding-bottom: 16px;
-    border-bottom: 1px solid ${({theme}) => theme.colors.header};
+    border-bottom: 1px solid #E5E5E5;
 
     @media (max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
         padding-bottom: 12px;
