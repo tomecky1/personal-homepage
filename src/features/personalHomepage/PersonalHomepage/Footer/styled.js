@@ -57,7 +57,7 @@ export const SocialIcons = styled.div`
     display: flex;
     justify-content: flex-start;
     gap: 24px;
-    
+
     &:not(:last-child) {
         margin-right: 16px;
 
@@ -77,4 +77,14 @@ export const Link = styled.a`
     }
 `;
 
+export const StyledSocialImage = styled.img`
+    width: 48px;
+    aspect-ratio: 1;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.1);
+        color: ${({theme}) => theme.colors.primary};
+    }
+`;
 
