@@ -80,7 +80,7 @@ export const Link = styled.a`
 export const StyledSocialImage = styled.img`
     width: 48px;
     aspect-ratio: 1;
-    transition: transform 0.2s;
+    transition: transform 0.3s;
 
     &:hover {
         transform: scale(1.1);
