@@ -1,4 +1,4 @@
-import tomekPiotrowskiProfile from "../../../../assets/images/mojamordaoksy.jpg"
+import tomekPiotrowskiProfile from "../../../../assets/images/portrait.jpg"
 import {Avatar, ButtonIcon, Name, StyledButtonLink, Summary, ThisIs, Wrapper} from "./styled.js";
 import message from "../../../../assets/images/Message.png"
 import {email} from "../../../../email.js"
