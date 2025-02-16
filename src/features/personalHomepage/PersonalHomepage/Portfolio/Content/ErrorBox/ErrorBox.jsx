@@ -1,4 +1,4 @@
-import {ButtonLink} from "../../../ButtonLink/ButtonLink.jsx";
+import {ButtonLink} from "../../../ButtonLink/ButtonLink.tsx";
 import {githubUsername} from "../../githubUsername.js";
 import {Header, Paragraph, Wrapper} from "./styled.js";
 

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import {ButtonLink} from "../ButtonLink/ButtonLink.jsx";
+// @ts-ignore
+import {ButtonLink} from "../ButtonLink/ButtonLink.tsx";
 
 export const Wrapper = styled.header`
     display: grid;

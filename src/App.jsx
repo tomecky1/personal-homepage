@@ -2,15 +2,15 @@ import {useSelector} from "react-redux";
 import {ThemeProvider} from "styled-components";
 import {themeDark, themeLight} from "./theme.js";
 import {selectIsDarkTheme} from "./common/themeSlice.js";
-import {ThemeSwitch} from "./common/ThemeSwitch/ThemeSwitch.jsx";
-import {Container} from "./features/personalHomepage/PersonalHomepage/Container/Container.jsx";
-import {MainInformation} from "./features/personalHomepage/PersonalHomepage/MainInformation/MainInformation.jsx";
-import {Skills} from "./features/personalHomepage/PersonalHomepage/Skills/Skills.jsx";
+import {ThemeSwitch} from "./common/ThemeSwitch/ThemeSwitch.tsx";
+import {Container} from "./features/personalHomepage/PersonalHomepage/Container/Container.tsx";
+import {MainInformation} from "./features/personalHomepage/PersonalHomepage/MainInformation/MainInformation.tsx";
+import {Skills} from "./features/personalHomepage/PersonalHomepage/Skills/Skills.tsx";
 import toolsIcon from "./assets/images/tools.png"
 import rocketIcon from "./assets/images/rocket.png"
 import {skills, skillsNext} from "./features/personalHomepage/PersonalHomepage/skillsData.js";
-import {Portfolio} from "./features/personalHomepage/PersonalHomepage/Portfolio/Portfolio.jsx";
-import {Footer} from "./features/personalHomepage/PersonalHomepage/Footer/Footer.jsx";
+import {Portfolio} from "./features/personalHomepage/PersonalHomepage/Portfolio/Portfolio.tsx";
+import {Footer} from "./features/personalHomepage/PersonalHomepage/Footer/Footer.tsx";
 
 function App() {
   const isDarkTheme = useSelector(selectIsDarkTheme);

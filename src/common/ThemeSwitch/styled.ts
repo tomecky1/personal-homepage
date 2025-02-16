@@ -35,7 +35,7 @@ export const Box = styled.span`
     display: flex;
 `;
 
-export const IconWrapper = styled.span`
+export const IconWrapper: any = styled.span <{ moveToRight: any }>`
     border-radius: 50%;
     background: currentColor;
     display: flex;

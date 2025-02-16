@@ -15,6 +15,7 @@ export const skills = [
   "React Router",
   "Trello",
   "Teamwork",
+  "TypeScript",
   "React Hooks",
   "CSS Modules",
   "Tailwind CSS",
@@ -23,8 +24,7 @@ export const skills = [
 
 export const skillsNext = [
   "Python (maybe)",
-  "TypeScript",
   "Node.js",
-  "Tanstack query",
+  "Tanstack Query",
   "Unit testing"
 ];
