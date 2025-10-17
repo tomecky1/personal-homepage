@@ -2,19 +2,20 @@ export const skills = [
   "semantic and accessible HTML",
   "Git",
   "Responsive Web Design",
-  "React",
+  "React 19",
   "Github pull requests and reviews",
   "Javascript: ES6+",
   "CSS: Sass",
   "CSS: Flexbox",
   "CSS: Grid",
   "CSS: BEM",
+  "CSS: inline styles",
   "NPM",
   "Working with APIs",
   "Markdown",
+  "Bootstrap",
   "React Router",
   "Trello",
-  "Teamwork",
   "TypeScript",
   "React Hooks",
   "CSS Modules",
@@ -22,9 +23,4 @@ export const skills = [
   "Vite",
 ];
 
-export const skillsNext = [
-  "Python (maybe)",
-  "Node.js",
-  "Tanstack Query",
-  "Unit testing"
-];
+export const skillsNext = ["Next.js", "Node.js"];
