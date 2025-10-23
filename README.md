@@ -1,7 +1,3 @@
-# MY PERSONAL HOMESITE
-
-![PAGE SCREENSHOT](/src/assets/images/homepage.png "cv homesite")
-
 ## DEMO
 
 [SITE PREVIEW](https://tomekpiotrowski-homepage.netlify.app/)
