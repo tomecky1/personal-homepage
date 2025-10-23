@@ -22,9 +22,7 @@ export const Wrapper = styled.header`
 
 export const Avatar = styled.img`
     width: 30vw;
-    aspect-ratio: 1;
     max-width: 384px;
-    border-radius: 50%;
 `
 
 export const ThisIs = styled.div`
